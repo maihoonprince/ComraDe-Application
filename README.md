@@ -20,5 +20,52 @@ ComraDe is a social media platform built using the MERN (MongoDB, Express.js, Re
 
 ## Setup
 
-1. Clone the repository:
+1. Clone the repository: git clone https://github.com/maihoonprince/ComraDe-Application.git
+
+2. Install dependencies for both the client and server:
+   cd comrade-social-media
+
+3. Install dependencies for both the client and server:
+   npm install
+   
+   cd frontend
+   npm install
+
+
+4. Set up environment variables:
+
+- Create a `.env` file in the server directory.
+- Add the following environment variables:
+  ```
+  MONGO_URI=
+  PORT=5000
+  JWT_SECRET=
+  NODE_ENV=
+
+  CLOUDINARY_CLOUD_NAME=
+  CLOUDINARY_API_KEY=
+  CLOUDINARY_API_SECRET=
+  ```
+
+5. Run the development server:
+   npm run dev
+
+   cd frontend
+   npm run dev
+
+   
+6. Open your browser and visit `http://localhost:3000` to view the application.
+
+## Contributing
+
+Contributions are welcome! Feel free to open issues or pull requests for bug fixes, improvements, or new features.
+
+## License
+
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
+
+
+
+
+
 
